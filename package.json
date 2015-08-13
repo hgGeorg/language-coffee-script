@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "language-coffee-script-on-ice",
   "description": "IcedCoffeeScript language support in Atom",
   "license": "MIT",
