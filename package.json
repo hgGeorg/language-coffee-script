@@ -10,10 +10,10 @@
   "homepage": "http://atom.github.io/language-coffee-script-on-ice",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hgGeorg/language-coffee-script.git"
+    "url": "https://github.com/hgGeorg/language-coffee-script-on-ice.git"
   },
   "bugs": {
-    "url": "https://github.com/hgGeorg/language-coffee-script/issues"
+    "url": "https://github.com/hgGeorg/language-coffee-script-on-ice/issues"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
