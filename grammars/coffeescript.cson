@@ -1,5 +1,5 @@
 'scopeName': 'source.coffee'
-'name': 'CoffeeScript'
+'name': 'IcedCoffeeScript'
 'fileTypes': [
   'coffee'
   'Cakefile'
