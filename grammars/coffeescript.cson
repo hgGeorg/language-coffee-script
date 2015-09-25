@@ -140,7 +140,7 @@
         'name': 'punctuation.definition.string.begin.js'
   }
   {
-    'match': '(?x)\\b(?<![\\.\\$])(\n\t\t\t\t\tbreak|by|catch|continue|else|finally|for|in|of|if|return|switch|\n\t\t\t\t\tthen|throw|try|unless|when|while|until|loop|do|await|defer|is|isnt|not|and|or|(?<=for)\\s+own\n\t\t\t\t)(?!\\s*:)\\b'
+    'match': '(?x)\\b(?<![\\.\\$])(\n\t\t\t\t\tbreak|by|catch|continue|else|finally|for|in|of|if|return|switch|\n\t\t\t\t\tthen|throw|try|unless|when|while|until|loop|do|await|defer|(?<=for)\\s+own\n\t\t\t\t)(?!\\s*:)\\b'
     'name': 'keyword.control.coffee'
   }
   {
