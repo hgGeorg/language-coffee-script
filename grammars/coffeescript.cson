@@ -144,12 +144,12 @@
     'name': 'keyword.control.coffee'
   }
   {
-    'match': '=(?!>)'
-    'name': 'keyword.assignment.operator.coffee'
-  }
-  {
     'match': '(?x)and=|or=|!|%|&|\\^|\\*|\\/|(\\-)?\\-(?!>)|\\+\\+|\\+|~|==|!=|<=|>=|<<=|>>=|\n\t\t\t\t>>>=|<>|<|>|!|&&|\\.\\.(\\.)?|\\?|\\||\\|\\||\\:|\\*=|(?<!\\()/=|%=|\\+=|\\-=|&=|\n\t\t\t\t\\^=|\\b(?<![\\.\\$])(instanceof|new|delete|typeof|and|or|is|isnt|not|super)(?!\\s*:)\\b'
     'name': 'keyword.operator.coffee'
+  }
+  {
+    'match': '=(?!>)'
+    'name': 'keyword.assignment.operator.coffee'
   }
   {
     'match': '\\b(?<![\\.\\$])(case|default|function|var|void|with|const|let|enum|export|import|native|__hasProp|__extends|__slice|__bind|__indexOf|implements|interface|package|private|protected|public|static|yield)(?!\\s*:)\\b'
