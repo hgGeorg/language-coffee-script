@@ -3,7 +3,7 @@ describe "CoffeeScript (Literate) grammar", ->
 
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage("language-coffee-script")
+      atom.packages.activatePackage("language-coffee-script-on-ice")
 
     runs ->
       grammar = atom.grammars.grammarForScopeName("source.litcoffee")
