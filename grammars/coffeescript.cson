@@ -1,11 +1,12 @@
 'scopeName': 'source.coffee'
-'name': 'CoffeeScript'
+'name': 'IcedCoffeeScript'
 'fileTypes': [
   'coffee'
   'Cakefile'
   'coffee.erb'
   'cson'
   '_coffee'
+  'iced'
 ]
 'firstLineMatch': '^#!.*\\bcoffee'
 'foldingStartMarker': '^\\s*class\\s+\\S.*$|.*(->|=>)\\s*$|.*[\\[{]\\s*$'
@@ -139,12 +140,16 @@
         'name': 'punctuation.definition.string.begin.js'
   }
   {
-    'match': '\\b(?<![\\.\\$])(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|(?<=for)\\s+own)(?!\\s*:)\\b'
+    'match': '\\b(?<![\\.\\$])(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|await|defer|(?<=for)\\s+own)(?!\\s*:)\\b'
     'name': 'keyword.control.coffee'
   }
   {
     'match': '(and|or|<<|>>>?|(?<!\\()\\/|[=!<>*%+\\-&^])?=(?!>)|[!%^*\\/~?:]|\\-?\\-(?!>)|\\+\\+?|<>|<|>|&&?|\\.\\.\\.?|\\|\\|?|\\b(?<![\\.\\$])(instanceof|new|delete|typeof|and|or|is|isnt|not|super)(?!\\s*:)\\b'
     'name': 'keyword.operator.coffee'
+  }
+  {
+    'match': '=(?!>)'
+    'name': 'keyword.assignment.operator.coffee'
   }
   {
     'match': '\\b(?<![\\.\\$])(case|default|function|var|void|with|const|let|enum|export|import|native|__hasProp|__extends|__slice|__bind|__indexOf|implements|interface|package|private|protected|public|static|yield)(?!\\s*:)\\b'
@@ -157,7 +162,7 @@
       '4':
         'name': 'punctuation.separator.key-value'
       '5':
-        'name': 'keyword.operator.coffee'
+        'name': 'keyword.assignment.operator.coffee'
     'match': '([a-zA-Z\\$_](\\w|\\$|\\.)*\\s*(?!\\::)((:)|((?:or|and|[-+/&%*?])?=)(?![>=]))(?!(\\s*\\(.*\\))?\\s*([=-]>)))'
     'name': 'variable.assignment.coffee'
   }
