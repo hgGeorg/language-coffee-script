@@ -7,10 +7,9 @@ Adds syntax highlighting and snippets to IcedCoffeeScript files in Atom.
 Forked from [language-coffee-script](https://github.com/atom/language-coffee-script) package.
 
 ### Difference:
-* IcedCoffeeScript support
-* Mark function calls (pull request pending)
-* ~~Since operators like `is`, `isnt`, `not` etc. are mostly used in control structure, those are also marked as such.~~
-Syntax theme should color them accordingly to stay consistent.
-* Assignment operators are marked as such.
+
+*   IcedCoffeeScript support
+*   Mark function calls
+*   Assignment operators are marked as such.
 
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle) from the [CoffeeScript TextMate bundle](https://github.com/jashkenas/coffee-script-tmbundle).
